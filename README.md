@@ -4,7 +4,7 @@ Official Version 1.0 website for CodeLyne.com
 ****************
 PM : Daniel Bemsen
 @Realice
-<danireptor7@gmail.com>
+<mailto:danireptor7@gmail.com>
 ****************
 
 Create a proper file structure arrange your folders and file well...
