@@ -18,6 +18,10 @@
     font-family: var(--poppins);
 }
 
+body{
+    overflow: hidden;
+}
+
 .bg-primary{
     background-color: var(--primary) !important;
 }
@@ -64,8 +68,8 @@ p, .navbar-brand{
     position: relative;
     width: 100vw;
     min-height: 100vh;
-    overflow: hidden;
     z-index: 2;
+    /* overflow-x: hidden; */
 }
 
 /* Nav */
@@ -110,12 +114,12 @@ nav{
     height: 100%;
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 80px;
 } 
 
 /* Hero Content */
 .hero--content{
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 /* Countdown */
@@ -126,13 +130,13 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-bottom: 68px;
+    margin-bottom: 40px;
 }
 
 .hero--countdown-item{
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #fff;
     display: flex;
@@ -185,10 +189,10 @@ nav{
 /* Subscibe button */
 .subscribe{
     position: relative;
-    height: 70px;
+    height: 50px;
     width: 580px;
     border: 1px solid #777777;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .subscribe input{
@@ -224,7 +228,7 @@ nav{
 .social-icons{
     position: relative;
     z-index: 3;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 50px;
 }
 
@@ -239,8 +243,22 @@ nav{
 }
 
 @media screen and (max-width: 800px) {
+    body{
+        overflow-y: scroll;
+        width: 100vw;
+    }
+
     .nav-item{
         text-align: right;
+    }
+
+    .navbar-dark .navbar-toggler{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
 
     .subscribe{
@@ -282,4 +300,5 @@ nav{
     .hero--backgroundPatternRight{
         display: none;
     }
+
 }
