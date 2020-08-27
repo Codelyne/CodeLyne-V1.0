@@ -119,7 +119,7 @@ nav{
     height: 100%;
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10%;
     z-index: 0;
 } 
 
@@ -127,7 +127,7 @@ nav{
 .hero--content{
     position: relative;
     z-index: 3;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 /* Countdown */
@@ -136,8 +136,8 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .hero--countdown-item{
@@ -179,7 +179,7 @@ nav{
 .hero--countdown-item svg circle:nth-child(2){
     stroke: var(--primary);
     stroke-width: 10px;
-    stroke-dashoffset: calc(345 - (345 * 0) / 100);
+    stroke-dashoffset: calc(342 - (342 * 99) / 100);
 }
 
 .hero--countdown-item span{
@@ -234,8 +234,8 @@ nav{
 .social-icons{
     position: relative;
     z-index: 3;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .social-icons a{

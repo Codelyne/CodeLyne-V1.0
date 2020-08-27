@@ -37,10 +37,10 @@ function countdown(){
     day.innerText = d;
 
     // loader style
-    secondLoader.style.strokeDashoffset = Math.floor((250 - (250 * s) / 60));
-    minuteLoader.style.strokeDashoffset = Math.floor((250 - (250 * m) / 60));
-    hourLoader.style.strokeDashoffset = Math.floor((250 - (250 * h) / 24));
-    dayLoader.style.strokeDashoffset = Math.floor((250 - (250 * d) / 11));
+    secondLoader.style.strokeDashoffset = Math.floor((350 - (350 * s) / 60));
+    minuteLoader.style.strokeDashoffset = Math.floor((350 - (350 * m) / 60));
+    hourLoader.style.strokeDashoffset = Math.floor((350 - (350 * h) / 24));
+    dayLoader.style.strokeDashoffset = Math.floor((350 - (350 * d) / 11));
 
     setTimeout(countdown, 1000);
 }
