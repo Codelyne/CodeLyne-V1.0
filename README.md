@@ -1,4 +1,7 @@
 # CodeLyne-V1.0
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/75613903e7f24f658a486f3d86bd46ca)](https://app.codacy.com/gh/CodeLyne/CodeLyne-V1.0?utm_source=github.com&utm_medium=referral&utm_content=CodeLyne/CodeLyne-V1.0&utm_campaign=Badge_Grade_Dashboard)
+
 Official Version 1.0 website for CodeLyne.com
 
 ****************
