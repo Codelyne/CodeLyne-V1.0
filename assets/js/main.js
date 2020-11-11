@@ -1,3 +1,4 @@
+/*
 function countdown(){
     let now = new Date();
     let eventDate = new Date(2020, 10, 8);
@@ -46,3 +47,4 @@ function countdown(){
 }
 
 countdown();
+*/
